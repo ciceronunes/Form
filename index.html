@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post">
+        <h1>Cadastro</h1>
+        <label for="name">Nome <input type="text" name="name" id="name"></label>
+        <label for="email">Email <input type="email" name="email" id="email"></label>
+        <label for="age">Idade <input type="number" name="age" id="age"></label>
+        <label for="birth">Data de Nascimento <input type="date" name="dateOfBirth" id="birth"></label>
+        <div>
+            <p>Onde você possui conta:</p>
+            <label for="instagram"><input type="checkbox" name="socialNetwork" id="instagram"> Instagram</label>
+            <label for="facebook"><input type="checkbox" name="socialNetwork" id="facebook"> Facebook</label>
+            <label for="youtube"><input type="checkbox" name="socialNetwork" id="youtube"> Youtube</label>
+        </div>
+        <div>
+            <p>Sexo</p>
+            <label for="male"><input type="radio" name="gender" id="male"> Masculino</label>
+            <label for="female"><input type="radio" name="gender" id="female"> Feminino</label>
+        </div>
+        <label for="eyeColor">Cor dos Olhos <input type="color" name="eyeColor" id="eyeColor"></label>
+        <label for="eyeColor">Biografia<textarea name="eyeColor" id="eyeColor" cols="25" rows="5"></textarea></label>
+        <label for="profilePhoto">Foto do perfil <input type="file" accept="image/*" name="profilePhoto"
+                id="profilePhoto"></label>
+        <label for="telephone">Telefone <input type="tel" name="telephone" id="telephone"></label>
+        <label for="link">Link do Perfil do Facebook <input type="url" name="link" id="link"></label>
+        <label for="password">Senha <input type="password" name="password" id="password"></label>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar Dados</button>
+    </form>
+</body>
+
+</html>
